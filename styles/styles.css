@@ -1,0 +1,209 @@
+.screen{
+    position: relative;
+
+
+  
+
+}
+.wallpaper{
+    width:100%;
+    height: 550px;
+}
+.folders{
+    
+    margin-top: 10px;
+
+
+    position:absolute;
+    top:0px;
+    display: grid;
+    grid-template-columns:75px 75px 75px 75px; 
+    grid-template-rows: 75px 75px 75px ;
+    grid-auto-rows: 75px;
+    
+ 
+}
+.folder_img{
+    height: 35px;
+    width: 35px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.image_desc{
+    margin-top:0;
+    display: flex;
+    justify-content: center;
+}
+
+.folder{
+    padding-left: 10px;
+   
+   
+}
+.bottom{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color: skyblue;
+    width:100%;
+    display: inline-flex;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+.bottom_imgs{
+  
+    height: 30px;
+    width: 30px;
+
+}
+.bottom_images{
+    flex-basis: 15px;
+}
+.img_desc{
+    color: whitesmoke;
+    font-size: 15px;
+}
+.folder_img:hover{
+    background-color: hsla(hue, saturation, lightness, alpha);
+    border:1px bold;
+}
+
+
+
+.resume_body{
+    padding:5px 200px ;
+  
+
+   
+
+}
+.total{
+    border: 1px solid black;
+}
+
+ul{
+    margin-top: 0;
+    padding-left: 0px;
+    margin-left:5px;
+}
+.resume_icon{
+    height: 15px;
+    width: 15px;
+    margin-right: 3px;
+    color:white;
+}
+.list_div{
+    display: flex;
+    align-items:center ;
+    font-size: 15px;
+}
+.container{
+   
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    height:200px;
+    width:100%;
+    background-color: #0c3860;
+    position: relative;
+    border:1px;
+    border-style: solid;
+ 
+}
+
+.contact{
+   margin-left:15px;
+}
+.contact_info{
+    font-size: 10px;
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+
+.name{
+    display: flex;
+ 
+    position: absolute;
+    right:50px;
+    font-size: 20px;
+
+}
+.Objective{
+    position: relative;
+    padding-left:20px;
+}
+.propic{
+    position:absolute;
+    right:10px;
+    top:10px;
+  
+    
+}
+.propic_img{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    
+}
+.Objective_statement{
+    width: 610px;
+}
+.container1{
+    position: relative;
+    padding-left:20px;
+   
+    
+}
+hr{
+    background-color: #0c3860;
+}
+h2{
+    margin-left:0px;
+    color:#3b5998;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+h3{
+    margin:4px;
+    color:#3b5998;
+}
+.education{
+    position: relative;
+
+}
+.courses{
+    padding-left: 4px;
+}
+.info{
+    position: absolute;
+    right:20px;
+    top:50px;
+}
+.p{
+    margin:0px;
+}
+.Skills{
+    display: flex;
+    justify-content: flex-start;
+}
+td{
+    margin:5px;
+
+}
+li{
+    margin-left: 10px;
+}
+a{
+    color:white ;
+    text-decoration: none;
+}
+footer{
+    font-size: 10px;
+}
